@@ -7,7 +7,7 @@ state("flashplayer_32_sa") {
 
     /** I'll have all of the found addresses noted here, but I decided to use 
      *  the one that decrements randomly, because I'll only use '>' for
-     *  comparisons and he appears to be the one that "behaves" more properly.
+     *  comparisons and it appears to be the one that "behaves" most properly.
      *  (rarely, the 1-by-1 addresses just go nuts for no apparent reason)
      */
 
