@@ -8,3 +8,4 @@ Some of these autosplitters are for Flash games. These splitters were tested run
 
 So far, these Flash games are:
 -Zed
+-KND - Ice Creamed
