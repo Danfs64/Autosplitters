@@ -1,6 +1,7 @@
 # Autosplitters
 
-Scripts in autosplitter language (asl) to be used in speedrunning
+Scripts in autosplitter language (asl) to be used in speedrunning timers.
+All of these scripts were tested and intended for [LiveSplit](https://github.com/LiveSplit/LiveSplit), but they might (hopefully) work on other timers, if they support .asl scripts.
 
 ## Flash games
 
