@@ -27,7 +27,8 @@ state("Projector") {
 init {}
 
 start {
-    return current.playing == 24;
+    // The 'old == 0' is to make sure that the timer won't start if you reset the timer in-game
+    return old.playing == 0 && current.playing == 24;
 }
 
 split {
