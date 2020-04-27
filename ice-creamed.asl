@@ -32,7 +32,7 @@ start {
 }
 
 split {
-    // If it is already at level 3, split on end menu
+    // If already at level 3, split on end menu
     if (old.levelNumber == 3) return current.onMenu;
 
     else return current.levelNumber > old.levelNumber;
