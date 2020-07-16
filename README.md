@@ -8,5 +8,5 @@ All of these scripts were tested and intended for [LiveSplit](https://github.com
 Some of these autosplitters are for Flash games. These splitters were tested running the respective game through [BlueMaxima's Flashpoint](https://github.com/FlashpointProject/launcher).
 
 So far, said Flash games are:
--Zed
--KND - Ice Creamed
+*Zed
+*KND - Ice Creamed
