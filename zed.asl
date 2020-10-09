@@ -17,12 +17,21 @@ state("flashplayer_32_sa") {
     // int levelIncrement : "wininet.dll", 0x421300; // Increments by 1
 }
 
-init {}
+init {
+    vars.levelNumber = 1;
+}
 
 start {}
 
 split {
-    return current.levelIncrement > old.levelIncrement;
+    if (vars.levelNumber == 10) {
+        return false; //TODO PLACEHOLDER
+    }
+
+    else if (current.levelIncrement > old.levelIncrement) {
+        vars.levelNumber++;
+        return true;
+    }
 }
 
 isLoading {}
